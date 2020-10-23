@@ -8,6 +8,7 @@ This is the official README that I created for this project.
 - [Characteristics of the Project](#characteristics-of-the-project)
   - [Animation System](#animation-system)
   - [Title Screen](#title-screen)
+  - [Timer](#timer)
 
 ### Origins of Project
 I originally started this project back in early 2019 as my final project for my high school's Java 2 Gaming course. We were tasked with a game using the skills/concepts we learned throughout the school year. Being a Sonic fan, I decided to create 2D Sonic platformer similar to the original Sonic games on the [Sega Genesis](https://sonic.fandom.com/wiki/Category:Sega_Mega_Drive_games), [Master System](https://sonic.fandom.com/wiki/Category:Sega_Master_System_games), and [Game Gear](https://sonic.fandom.com/wiki/Category:Game_Gear_games). 
@@ -37,3 +38,10 @@ One of the highlights of this system was when I got Sonic's waiting animation to
 *Look at Sonic go!*
 
 This is one of the aspects that I am *still* the most proud of when it comes to this project. The title screen is made of 2 main compontents- the palmtrees, and the ground. Implementing the scrolling consisted of 2 steps: shifting over the images a certain distance and then resetting them back to their original position. I added the parallax effect by shifting over the palmtrees at a slower rate.
+
+#### Timer
+<img timer = "/GitHub Resources/HUD Timer.png" width = "600" height = "250"/>
+
+*It says what it does*
+
+Toward the end of development, I decided to add a time and ring bonuses to the game. This meant that I needed to create a timer in order to keep track of that time. While the timer works in-game, it is not 100% accurate as its speed is based on how fast the program is being run.
