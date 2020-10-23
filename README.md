@@ -8,6 +8,7 @@ This is the official README that I created for this project.
 - [Characteristics of the Project](#characteristics-of-the-project)
   - [Animation System](#animation-system)
   - [Title Screen](#title-screen)
+  - [Continue Screen](#continue-screen)
   - [Timer](#timer)
 
 ### Origins of Project
@@ -38,6 +39,16 @@ One of the highlights of this system was when I got Sonic's waiting animation to
 *Look at Sonic go!*
 
 This is one of the aspects that I am *still* the most proud of when it comes to this project. The title screen is made of 2 main compontents- the palmtrees, and the ground. Implementing the scrolling consisted of 2 steps: shifting over the images a certain distance and then resetting them back to their original position. I added the parallax effect by shifting over the palmtrees at a slower rate.
+
+#### Continue Screen
+
+*Try again*
+<img continue = "/GitHub Resources/Continue Screen Gif.gif" width = 1100 height = "500"/>
+
+Another highlight for the project in terms of animation. Instead of having the program quit after the player died like in many of the other
+projects that I saw, I decided to try and add a continue screen to allow the player to try again. The cutscene that I made takes inspiration
+from other games- the part where Sonic falls down was inspired by the *Super Smash Bros* continue screen and the hand that wakes Sonic up
+was influenced by the continue screen from *Kirby's Adventure*. 
 
 #### Timer
 <img timer = "/GitHub Resources/HUD Timer.png" width = "600" height = "250"/>
