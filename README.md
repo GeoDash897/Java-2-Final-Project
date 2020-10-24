@@ -1,3 +1,4 @@
+[//]: # (Note!, for adding margin to images it goes- top margin, bottom margin, right margin, left margin)
 <!-- omit in toc -->
 # Java 2 Final Project
 This is the official README that I created for this project.
@@ -10,6 +11,7 @@ This is the official README that I created for this project.
   - [Title Screen](#title-screen)
   - [Continue Screen](#continue-screen)
   - [Timer](#timer)
+  - [Power-Ups](#power-ups)
 
 ### Origins of Project
 I originally started this project back in early 2019 as my final project for my high school's Java 2 Gaming course. We were tasked with a game using the skills/concepts we learned throughout the school year. Being a Sonic fan, I decided to create 2D Sonic platformer similar to the original Sonic games on the [Sega Genesis](https://sonic.fandom.com/wiki/Category:Sega_Mega_Drive_games), [Master System](https://sonic.fandom.com/wiki/Category:Sega_Master_System_games), and [Game Gear](https://sonic.fandom.com/wiki/Category:Game_Gear_games). 
@@ -56,3 +58,17 @@ was influenced by the continue screen from *Kirby's Adventure*.
 *It says what it does*
 
 Toward the end of development, I decided to add a time and ring bonuses to the game. This meant that I needed to create a timer in order to keep track of that time. While the timer works in-game, it is not 100% accurate as its speed is based on how fast the program is being run.
+
+#### Power-Ups
+<img powerUp = "/GitHub Resources/Power Up.png" width = "351" height = "561"/> <img powerUp = "/GitHub Resources/Shotgun.gif" width = "550" height = "250" style="margin: 0px 0px 0px 25px;"/>
+
+<img powerUp = "/GitHub Resources/Heavy Machine Gun.gif" width = "550" height = "250"/> 
+
+*You probably should collect these*
+
+Just like most other 2D platformers, this one includes a selection of power ups that Sonic can use to his advantage. They are stored in 
+item monitors (just like in the *Genesis* Sonic platformers) and have to be broken in order to be accessed. In this project they include
+ones from both *Sonic the Hedgehog* series and the *Metal Slug* series:
+1. **Heavy Machine Gun** - taken from *Metal Slug*, allows Sonic to shoot small bullets in the direction that he is facing.
+2. **Shotgun** - taken from *Metal Slug*, allows Sonic to shoot a shotgun blast in the directiont that he is facing.
+3. **Ring Monitor** - taken from *Sonic the Hedgehog*, adds rings to Sonic's ring counter
