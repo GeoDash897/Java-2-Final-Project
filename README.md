@@ -3,6 +3,8 @@
 # Java 2 Final Project
 This is the official README that I created for this project.
 
+<img continue = "/GitHub Resources/Gameplay.gif" width = 1100 height = "500"/>
+
 <!-- omit in toc -->
 ## Table of Contents
 - [Origins of Project](#origins-of-project)
