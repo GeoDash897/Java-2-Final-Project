@@ -13,6 +13,7 @@ This is the official README that I created for this project.
   - [Timer](#timer)
   - [Power-Ups](#power-ups)
   - [Music](#music)
+- [Controls](#controls)
 
 ### Origins of Project
 I originally started this project back in early 2019 as my final project for my high school's Java 2 Gaming course. We were tasked with a game using the skills/concepts we learned throughout the school year. Being a Sonic fan, I decided to create 2D Sonic platformer similar to the original Sonic games on the [Sega Genesis](https://sonic.fandom.com/wiki/Category:Sega_Mega_Drive_games), [Master System](https://sonic.fandom.com/wiki/Category:Sega_Master_System_games), and [Game Gear](https://sonic.fandom.com/wiki/Category:Game_Gear_games). 
@@ -20,8 +21,11 @@ I originally started this project back in early 2019 as my final project for my 
 I started to develop the game in early March in my spare time (yeah, I started it before I was even *assigned* the project). 
 This was the first project that I worked full time on (actually put time and effort into it). I was so dedicated to the project in fact that I worked on it during my lunch period instead of eating. Furthermore, it was the one of the first projects that 
 
-Prior to programming the project, I was required to create a summary of the game and its components (story, game mechanics, etc). I pitched the game as being a crossover of [Sonic the Hedgehog](https://en.wikipedia.org/wiki/Sonic_the_Hedgehog) and [Metal Slug](https://en.wikipedia.org/wiki/Metal_Slug). Going into the project, I had a few goals I wanted to accomplish/implement: animations with multiple frames, system to store multiple levels, music system to play and change music, different kinds of enemies, a title screen, multiple characters, etc. In the end I managed to get an 100 on the assignment. Even though they are far from perfect (I probably would it have done
-it much differently if I worked on it now), here are some of the highlights of the project:
+Prior to programming the project, I was required to create a summary of the game and its components (story, game mechanics, etc). I pitched the game as being a crossover of [Sonic the Hedgehog](https://en.wikipedia.org/wiki/Sonic_the_Hedgehog) and [Metal Slug](https://en.wikipedia.org/wiki/Metal_Slug). 
+
+**Going into the project, I had a few goals I wanted to accomplish/implement**: animations with multiple frames, system to store multiple levels, music system to play and change music, different kinds of enemies, a title screen, multiple characters, etc. Despite not having the time to implement to all of these systems, I still managed to get an 100 on the assignment. 
+
+Even though they are far from perfect (I probably would it have done it much differently if I worked on it now), here are some of the highlights of the project:
 
 ### Characteristics of the Project
 #### Animation System
@@ -76,7 +80,6 @@ ones from both *Sonic the Hedgehog* series and the *Metal Slug* series:
 3. **Ring Monitor** - taken from *Sonic the Hedgehog*, adds rings to Sonic's ring counter
 
 #### Music
-
 One of the things that we did not go over in the Java 2 Gaming course was playing audio. These meant that the games we often created did
 not have any sound to them at all. As a result, I decided to research ways I could do it on my own. 
 
@@ -91,3 +94,13 @@ In the end, I decided to use the
     clip.open(audioInput);//opens music to clip
     clip.start();//Starts the music
 ```
+
+## Controls
+This game has very similar controls to most other 2D platformers. They are:
+* **Left Arrow Key** - Move left
+* **Right Arrow Key** - Move right
+* **Down Arrow Key** - Duck
+* **Z Key** - Jump
+* **X Key** - Shoot Weapon (if available)
+* **Y / N Key** - Select choice
+* **Enter Key** - Start game (after title screen theme plays) 
