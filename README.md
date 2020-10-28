@@ -3,7 +3,7 @@
 # Java 2 Final Project
 This is the official README that I created for this project.
 
-<img continue = "/GitHub Resources/Gameplay.gif" width = 1100 height = "500"/>
+<img src = "/GitHub Resources/Gameplay.gif" width = 1100 height = "500"/>
 
 <!-- omit in toc -->
 ## Table of Contents
@@ -53,7 +53,7 @@ This is one of the aspects that I am *still* the most proud of when it comes to 
 #### Continue Screen
 
 *Try again*
-<img continue = "/GitHub Resources/Continue Screen Gif.gif" width = 1100 height = "500"/>
+<img src ="/GitHub Resources/Continue Screen Gif.gif" width= "1100" height = "500"/>
 
 Another highlight for the project in terms of animation. Instead of having the program quit after the player died like in many of the other
 projects that I saw, I decided to try and add a continue screen to allow the player to try again. The cutscene that I made takes inspiration
@@ -61,16 +61,16 @@ from other games- the part where Sonic falls down was inspired by the *Super Sma
 was influenced by the continue screen from *Kirby's Adventure*. 
 
 #### Timer
-<img timer = "/GitHub Resources/HUD Timer.png" width = "600" height = "250"/>
+<img src = "GitHub Resources/Timer.png" width = "600" height = "250"/>
 
 *It says what it does*
 
 Toward the end of development, I decided to add a time and ring bonuses to the game. This meant that I needed to create a timer in order to keep track of that time. While the timer works in-game, it is not 100% accurate as its speed is based on how fast the program is being run.
 
 #### Power-Ups
-<img powerUp = "/GitHub Resources/Power Up.png" width = "351" height = "561"/> <img powerUp = "/GitHub Resources/Shotgun.gif" width = "550" height = "250" style="margin: 0px 0px 0px 25px;"/>
+<img src = "/GitHub Resources/Power Up.png" width = "351" height = "561"/> <img src = "/GitHub Resources/Shotgun.gif" width = "550" height = "250" style="margin: 0px 0px 0px 25px;"/>
 
-<img powerUp = "/GitHub Resources/Heavy Machine Gun.gif" width = "550" height = "250"/> 
+<img src = "/GitHub Resources/Heavy Machine Gun.gif" width = "550" height = "250"/> 
 
 *You probably should collect these*
 
