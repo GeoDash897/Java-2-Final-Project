@@ -16,6 +16,7 @@ This is the official README that I created for this project.
   - [Power-Ups](#power-ups)
   - [Music](#music)
 - [Controls](#controls)
+- [Things to Note](#things-to-note)
 
 ### Origins of Project
 I originally started this project back in early 2019 as my final project for my high school's Java 2 Gaming course. We were tasked with a game using the skills/concepts we learned throughout the school year. Being a Sonic fan, I decided to create 2D Sonic platformer similar to the original Sonic games on the [Sega Genesis](https://sonic.fandom.com/wiki/Category:Sega_Mega_Drive_games), [Master System](https://sonic.fandom.com/wiki/Category:Sega_Master_System_games), and [Game Gear](https://sonic.fandom.com/wiki/Category:Game_Gear_games). 
@@ -106,3 +107,10 @@ This game has very similar controls to most other 2D platformers. They are:
 * **X Key** - Shoot Weapon (if available)
 * **Y / N Key** - Select choice
 * **Enter Key** - Start game (after title screen theme plays) 
+
+## Things to Note
+1. The only files that you really need in order to play the game are the files in the src folder and the exe itself. The other folders are just remnants of working on the project in NetBeans- so you can delete these files/folders if you want to.
+
+2. Make sure that the exe file is located in the same folder as the src folder- this is so that the program can have access to correct images and sounds.
+
+3. Your anti-virus might flag the exe as being malware/a virus- this is normal. If this happens, just accept the exe.
