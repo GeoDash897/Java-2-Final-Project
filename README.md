@@ -1,8 +1,12 @@
 [//]: # (Note!, for adding margin to images it goes- top margin, bottom margin, right margin, left margin)
 <!-- omit in toc -->
 # Java 2 Final Project
-This is the official README that I created for this project.
+This is a 2D-platform fan-game inspired by the likes of *Sonic the Hedgehog* and *Metal Slug*.
 
+![Java version](https://img.shields.io/badge/java%20ver-12-brightgreen)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/GeoDash897/Java-2-Final-Project?color=light&include_prereleases)
+![GitHub commits since latest release (by date including pre-releases)](https://img.shields.io/github/commits-since/GeoDash897/Java-2-Final-Project/latest?include_prereleases&logo=GitHub)
+![GitHub repo size](https://img.shields.io/github/repo-size/GeoDash897/Java-2-Final-Project?logo=GitHub)
 <img src = "/GitHub Resources/Gameplay.gif" width = 1100 height = "500"/>
 
 <!-- omit in toc -->
