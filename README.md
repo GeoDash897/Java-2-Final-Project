@@ -11,7 +11,8 @@ This is a 2D-platform fan-game inspired by the likes of *Sonic the Hedgehog* and
 
 <!-- omit in toc -->
 ## Table of Contents
-- [Installation](#installation)
+- [Things of Note](#things-of-note)
+  - [Installation](#installation)
 - [Things to Look Out For](#things-to-look-out-for)
 - [Origins of Project](#origins-of-project)
 - [Characteristics of the Project](#characteristics-of-the-project)
@@ -23,7 +24,12 @@ This is a 2D-platform fan-game inspired by the likes of *Sonic the Hedgehog* and
   - [Music](#music)
 - [Controls](#controls)
 
-### Installation
+### Things of Note 
+When I created this project, I had very little understanding of the concepts of coding- including the concepts of objects, classes, the difference between public and private variables, the usage of static variables, etc. This is reflected in the code of this project- shown by how I had the genius idea of programming the entire game in a *single* class. 
+
+Note that if I had done the project more recently, I would have done it in a much more coherent way (actually using the proper modifiers for variables, using classes, objects, etc). Keep this in mind as you view the project and its code.
+
+#### Installation
 1. **Download** the zip, including the **exe** file in binaries.
 2. **Unzip** the file.
 3. Move the **exe** into the unzipped folder- it should be located in the same folder as the **src** folder
