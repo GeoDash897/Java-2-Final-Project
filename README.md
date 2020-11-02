@@ -11,6 +11,8 @@ This is a 2D-platform fan-game inspired by the likes of *Sonic the Hedgehog* and
 
 <!-- omit in toc -->
 ## Table of Contents
+- [Installation](#installation)
+- [Things to Look Out For](#things-to-look-out-for)
 - [Origins of Project](#origins-of-project)
 - [Characteristics of the Project](#characteristics-of-the-project)
   - [Animation System](#animation-system)
@@ -20,7 +22,16 @@ This is a 2D-platform fan-game inspired by the likes of *Sonic the Hedgehog* and
   - [Power-Ups](#power-ups)
   - [Music](#music)
 - [Controls](#controls)
-- [Things to Note](#things-to-note)
+
+### Installation
+1. **Download** the zip, including the **exe** file in binaries.
+2. **Unzip** the file.
+3. Move the **exe** into the unzipped folder- it should be located in the same folder as the **src** folder
+
+### Things to Look Out For
+1. The only files that you really need in order to play the game are the files in the src folder and the exe itself. The other folders are just remnants of working on the project in NetBeans- so you can delete these files/folders if you want to.
+2. Make sure that the exe file is located in the same folder as the src folder- this is so that the program can have access to correct images and sounds.
+3. Your anti-virus might flag the exe as being malware/a virus- this is normal. If this happens, just accept the exe.
 
 ### Origins of Project
 I originally started this project back in early 2019 as my final project for my high school's Java 2 Gaming course. We were tasked with a game using the skills/concepts we learned throughout the school year. Being a Sonic fan, I decided to create 2D Sonic platformer similar to the original Sonic games on the [Sega Genesis](https://sonic.fandom.com/wiki/Category:Sega_Mega_Drive_games), [Master System](https://sonic.fandom.com/wiki/Category:Sega_Master_System_games), and [Game Gear](https://sonic.fandom.com/wiki/Category:Game_Gear_games). 
@@ -111,10 +122,3 @@ This game has very similar controls to most other 2D platformers. They are:
 * **X Key** - Shoot Weapon (if available)
 * **Y / N Key** - Select choice
 * **Enter Key** - Start game (after title screen theme plays) 
-
-## Things to Note
-1. The only files that you really need in order to play the game are the files in the src folder and the exe itself. The other folders are just remnants of working on the project in NetBeans- so you can delete these files/folders if you want to.
-
-2. Make sure that the exe file is located in the same folder as the src folder- this is so that the program can have access to correct images and sounds.
-
-3. Your anti-virus might flag the exe as being malware/a virus- this is normal. If this happens, just accept the exe.
