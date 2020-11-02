@@ -12,8 +12,8 @@ This is a 2D-platform fan-game inspired by the likes of *Sonic the Hedgehog* and
 <!-- omit in toc -->
 ## Table of Contents
 - [Things of Note](#things-of-note)
-  - [Installation](#installation)
-- [Things to Look Out For](#things-to-look-out-for)
+- [Installation](#installation)
+  - [Things to Look Out For](#things-to-look-out-for)
 - [Origins of Project](#origins-of-project)
 - [Characteristics of the Project](#characteristics-of-the-project)
   - [Animation System](#animation-system)
@@ -24,12 +24,12 @@ This is a 2D-platform fan-game inspired by the likes of *Sonic the Hedgehog* and
   - [Music](#music)
 - [Controls](#controls)
 
-### Things of Note 
+## Things of Note 
 When I created this project, I had very little understanding of the concepts of coding- including the concepts of objects, classes, the difference between public and private variables, the usage of static variables, etc. This is reflected in the code of this project- shown by how I had the genius idea of programming the entire game in a *single* class. 
 
 Note that if I had done the project more recently, I would have done it in a much more coherent way (actually using the proper modifiers for variables, using classes, objects, etc). Keep this in mind as you view the project and its code.
 
-#### Installation
+## Installation
 1. **Download** the zip, including the **exe** file in binaries.
 2. **Unzip** the file.
 3. Move the **exe** into the unzipped folder- it should be located in the same folder as the **src** folder
@@ -39,7 +39,7 @@ Note that if I had done the project more recently, I would have done it in a muc
 2. Make sure that the exe file is located in the same folder as the src folder- this is so that the program can have access to correct images and sounds.
 3. Your anti-virus might flag the exe as being malware/a virus- this is normal. If this happens, just accept the exe.
 
-### Origins of Project
+## Origins of Project
 I originally started this project back in early 2019 as my final project for my high school's Java 2 Gaming course. We were tasked with a game using the skills/concepts we learned throughout the school year. Being a Sonic fan, I decided to create 2D Sonic platformer similar to the original Sonic games on the [Sega Genesis](https://sonic.fandom.com/wiki/Category:Sega_Mega_Drive_games), [Master System](https://sonic.fandom.com/wiki/Category:Sega_Master_System_games), and [Game Gear](https://sonic.fandom.com/wiki/Category:Game_Gear_games). 
 
 I started to develop the game in early March in my spare time (yeah, I started it before I was even *assigned* the project). 
@@ -51,8 +51,8 @@ Prior to programming the project, I was required to create a summary of the game
 
 Even though they are far from perfect (I probably would it have done it much differently if I worked on it now), here are some of the highlights of the project:
 
-### Characteristics of the Project
-#### Animation System
+## Characteristics of the Project
+### Animation System
 <img src ="/GitHub Resources/Sonic Intro Gif.gif" width= "1100" height = "500"/>
 
 *Apparently Sonic doesn't like being grayscale.*
@@ -65,14 +65,14 @@ However, we never went over how to create and display animations in Java. This c
 
 One of the highlights of this system was when I got Sonic's waiting animation to play correctly for the first time.
 
-#### Title Screen
+### Title Screen
 <img src ="/GitHub Resources/Sonic Title Gif.gif" width= "1100" height = "500"/>
 
 *Look at Sonic go!*
 
 This is one of the aspects that I am *still* the most proud of when it comes to this project. The title screen is made of 2 main compontents- the palmtrees, and the ground. Implementing the scrolling consisted of 2 steps: shifting over the images a certain distance and then resetting them back to their original position. I added the parallax effect by shifting over the palmtrees at a slower rate.
 
-#### Continue Screen
+### Continue Screen
 
 *Try again*
 <img src ="/GitHub Resources/Continue Screen Gif.gif" width= "1100" height = "500"/>
@@ -82,14 +82,14 @@ projects that I saw, I decided to try and add a continue screen to allow the pla
 from other games- the part where Sonic falls down was inspired by the *Super Smash Bros* continue screen and the hand that wakes Sonic up
 was influenced by the continue screen from *Kirby's Adventure*. 
 
-#### Timer
+### Timer
 <img src = "GitHub Resources/Timer.png" width = "600" height = "250"/>
 
 *It says what it does*
 
 Toward the end of development, I decided to add a time and ring bonuses to the game. This meant that I needed to create a timer in order to keep track of that time. While the timer works in-game, it is not 100% accurate as its speed is based on how fast the program is being run.
 
-#### Power-Ups
+### Power-Ups
 <img src = "/GitHub Resources/Power Up.png" width = "351" height = "561"/> <img src = "/GitHub Resources/Shotgun.gif" width = "550" height = "250" style="margin: 0px 0px 0px 25px;"/>
 
 <img src = "/GitHub Resources/Heavy Machine Gun.gif" width = "550" height = "250"/> 
@@ -103,7 +103,7 @@ ones from both *Sonic the Hedgehog* series and the *Metal Slug* series:
 2. **Shotgun** - taken from *Metal Slug*, allows Sonic to shoot a shotgun blast in the directiont that he is facing.
 3. **Ring Monitor** - taken from *Sonic the Hedgehog*, adds rings to Sonic's ring counter
 
-#### Music
+### Music
 One of the things that we did not go over in the Java 2 Gaming course was playing audio. These meant that the games we often created did
 not have any sound to them at all. As a result, I decided to research ways I could do it on my own. 
 
