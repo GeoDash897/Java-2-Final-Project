@@ -12,7 +12,7 @@ import javax.sound.sampled.Clip;
 import javax.sound.sampled.FloatControl;
 import java.util.ArrayList;
 
-public class Test2 extends JFrame implements KeyListener, ActionListener {
+public class J2FinalProject extends JFrame implements KeyListener, ActionListener {
 //opens program
 //here is all of the variables that I used (mainly consists of Images and ints)
 //Startup variables
@@ -306,7 +306,7 @@ public static ArrayList <Integer> yEnemyBullet = new ArrayList<Integer>();
 public static ArrayList <Rectangle> Rings = new ArrayList<Rectangle>();
 
 /***********************************************************/
-    public Test2() {//constructor for JPanel
+    public J2FinalProject() {//constructor for JPanel
         add(new JP());
         //creates the Rectangles the first time (so they can exist)
         CollisionSonic = new Rectangle(xSonic,ySonic,wSonic,hSonic);
@@ -332,7 +332,7 @@ public static ArrayList <Rectangle> Rings = new ArrayList<Rectangle>();
 /***********************************************************/
     public static void main(String[] args) {//start main method
     
-        Test2 w = new Test2();
+        J2FinalProject w = new J2FinalProject();
         w.setTitle("Sonic the Hedgehog");
         w.setSize(Toolkit.getDefaultToolkit().getScreenSize());
         w.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
