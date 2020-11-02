@@ -2658,12 +2658,6 @@ public void playMusic() {//plays music (that pretty much it :D
     else if(musicstart == -1 && actend == 0) {
        music = "src\\resources\\music files\\Green Grove Zone.wav";
     }
-    else if(musicstart == 0 && actend == 0) {
-       music = "src\\resources\\music files\\Naganuma Mixtape.wav";
-    }
-/*else if(spike == 1 && actend == 0) {
-   music = "Extra Life Sound.wav";
-}*/
     else if(actend == 1 && actmusic == 0) {
        music = "src\\resources\\music files\\Act Clear SPA.wav";
     }
